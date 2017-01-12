@@ -1,0 +1,8 @@
+// 核心文件
+
+// 导入参数/函数类文件,minxin有依赖关系，此部分请按照顺序加载
+@import "./core/minxin-colors";
+@import "./core/minxin-themeColors";
+@import "./core/minxin-variables";
+@import "./core/minxin-mixins";
+@import "./core/minxin-palette";

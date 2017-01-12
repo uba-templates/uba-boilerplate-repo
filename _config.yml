@@ -1,0 +1,24 @@
+# 仓库名
+repo: iuap
+
+# 源码目录
+source: src
+
+# 编译目录
+dist: dist
+
+# 入口文件
+
+
+# layout布局
+source: src
+md_layout:
+    default: menu.html
+    react: react_layout.html
+
+# 文档片段
+snip_dir: snippets
+snip_sum: SUMMARY.md
+snip_index: README.md
+snip_base: base.md
+snip_demo: demo
