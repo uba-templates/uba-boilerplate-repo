@@ -35,10 +35,10 @@ module.exports = {
             }
         ]
 	},
-    // 此处增加会报错
-    sassLoader:{
-        includePaths: [path.resolve(__dirname, "./src/scss/core.scss")]
-    },
+    // 用法不详sassLoader
+    // sassLoader:{
+    //     includePaths: [path.resolve(__dirname, "./src/scss")]
+    // },
     resolve:{
         extensions: ['', '.js']
     },
