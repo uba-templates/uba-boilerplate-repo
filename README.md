@@ -33,12 +33,23 @@ test //测试文件
 # 编译 + eslint测试
 npm run build
 
+# 热更新
+npm run hot
+
 # 生成api文档
 jsdoc path/*.js
 
 # eslint测试
 eslint path/*.js
 ```
+
+
+
+* 第三方插件不打包✅
+* 源码debug
+* 定制替换
+
+
 
 
 
@@ -64,6 +75,9 @@ npm install --save-dev eslint-loader
 
 # sass
 npm install --save-dev extract-text-webpack-plugin sass-loader css-loader style-loader node-sass
+
+# html
+npm install --save-dev html-webpack-plugin
 ```
 
 > 吐槽：导出css文件大费周折
@@ -90,3 +104,6 @@ npm install --save-dev extract-text-webpack-plugin sass-loader css-loader style-
 * [Env preset](https://babeljs.io/docs/plugins/preset-env/#how-it-works-determine-the-lowest-common-denominator-of-plugins-to-be-included-in-the-preset)
 * [eslint官网](http://eslint.org/docs/user-guide/getting-started)
 * [详解 ESLint 规则，规范你的代码](http://www.tuicool.com/articles/rIFBfey)
+* [彻底解决Webpack打包性能问题](https://zhuanlan.zhihu.com/p/21748318)
+* [HOT MODULE REPLACEMENT WITH WEBPACK](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html)
+

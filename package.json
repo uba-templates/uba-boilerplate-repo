@@ -4,7 +4,9 @@
   "description": "tinper repository boilerplate - tinper仓库基础规范",
   "main": "index.js",
   "scripts": {
-    "build":"webpack --colors --progress"
+    "pre": "webpack --config ddl.config.js",
+    "hot": "webpack-dev-server --content-base dist/",
+    "build": "webpack --colors --progress"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,14 @@
     "eslint": "^3.13.1",
     "eslint-loader": "^1.6.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.26.0",
     "node-sass": "^4.2.0",
+    "react": "^15.4.2",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "jquery": "^1.12.0"
   }
 }
